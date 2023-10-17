@@ -1,0 +1,16 @@
+// enter your age
+var myAge = 31;
+/*first two years for dogs are 10.5 in human years*/
+var earlyYears = 2;
+earlyYears *= 10.5;
+
+/* after first two years, 1 human year is 4 dog years */
+var laterYears = myAge -2;
+laterYears *= 4;
+
+// total years added together
+var myAgeInDogYears = earlyYears + laterYears;
+
+var myName = 'Shon Williams'.toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years. Looks like old dogs can learn new tricks!`)
