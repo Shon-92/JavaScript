@@ -1,0 +1,18 @@
+// constant variable set to 293.
+const kelvin = 293;
+
+// celsuis is kelvin - 273
+var celsuis = kelvin - 273;
+
+//Fahrenheit = Celsius * (9/5) + 32
+// round down decimal output of fahrenheit
+var fahrenheit =Math.floor( celsuis * (9/5) +32);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
+
+/* Convert celsuis to newtons
+  newton = celsuis * (33/100)
+  round down result */
+
+var newton = Math.floor(celsuis * (33/100));
+console.log(`The temperature is ${newton} degrees Newton`);
