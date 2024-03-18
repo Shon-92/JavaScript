@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirction</title>
+</head>
+
+<body>
+<h1>Redirecting the viewer with if/else statement</h1>
+<p>
+Please enter your age and then click "Go There" button. You will be redirected to an apporpriate page.
+</p>
+<button id="btn">Go there</button>
+
+
+
+
+
+<script>
+    
+   let theAge= prompt("Please enter your age.");
+
+    function myRedirect(){ 
+    if (theAge < 21){
+        window.location="https://www.disney.com/";
+    }
+   else{
+        window.location="https://www.espn.com/";
+    }
+}
+
+    
+btn.addEventListener('click',myRedirect);
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+</html>

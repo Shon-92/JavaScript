@@ -1,0 +1,39 @@
+<html>
+<body>
+    
+<input id="button" type = "button">
+<p id = "out"></p>
+<p id="out2"></p>
+<script>
+    function greet(){
+        console.log("Yo");
+        console.log("hey man what up ");
+        document.getElementById('out').innerHTML = "Try";
+    }
+    greet();
+
+var greets = function(){
+    console.log("not much broseph");
+    document.getElementById('out2').innerHTML = "This";
+}
+greets();
+
+function personalGreeting(name,greeting){
+    console.log(greeting + " " + name+ ".");
+}
+personalGreeting("Shon" , "Hello");
+function subtract(a,b){
+    return a-b;
+}
+var result = subtract(60,7);
+console.log(result);
+
+document.getElementById('button').onclick = function(){
+    alert("you clicked the button");
+}
+</script>
+</body>
+
+
+
+</html>

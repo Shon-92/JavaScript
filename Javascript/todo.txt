@@ -1,0 +1,3 @@
+test to test constructor 
+
+system test finish StudentRecordIO
